@@ -1,6 +1,8 @@
 "use strict";
 let userName = "Shourav Rajbongshi";
 userName = "Developer Shourav";
-const userId = 54631;
-console.log(userName);
+let userId = 51;
+if (userId < 100)
+    userId += 1000;
+console.log(userId);
 //# sourceMappingURL=index.js.map
