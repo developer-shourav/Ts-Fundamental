@@ -1,9 +1,15 @@
-let userName: string = "Shourav Rajbongshi";
-userName = "Developer Shourav";
-/* -----------This is user UniqueId-------- */
-let userId: number = 51;
 
-if(userId < 100)
-    userId+= 1000
-console.log(userId);
+/* ---------------------- Defining Type in Type Script--------------- */
 
+
+// Example of Defining number Type
+const userId: number = 32434;
+
+// Example of Defining String Type
+const userName: string = "Developer Shourav";
+
+// Example of Boolean type
+let isActive: Boolean = true;
+isActive = false
+
+// 
