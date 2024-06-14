@@ -51,3 +51,16 @@ enum Size {
   Medium = "medium",
   Large = "large"
 }
+
+// 7.1 Defining Enum using const key word for Make more optimized code 
+  
+const enum UserRoleInApp {
+  user = "user",
+  admin = "admin"
+}
+
+const enum BookSize {
+  Small = "small",
+  Medium = "medium",
+  Large = "large"
+}
