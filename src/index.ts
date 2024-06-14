@@ -1,18 +1,16 @@
-
 /* ---------------------- Defining Type in Type Script--------------- */
 
-
-// ------- Example of Defining number Type
+// 1.------- Example of Defining number Type
 const userId: number = 32434;
 
-// -------- Example of Defining String Type
+// 2.-------- Example of Defining String Type
 const userName: string = "Developer Shourav";
 
-// -------- Example of Boolean type
+// 3.-------- Example of Boolean type
 let isActive: Boolean = true;
 isActive = false
 
-// -------- Example of Any type 
+// 4.-------- Example of Any type 
 
 const userInfo: any = {
   contactInfo: {},
@@ -21,24 +19,35 @@ const userInfo: any = {
 
 };
 
-// ----------Example of Defining Array Type 
+// 5.----------Example of Defining Array Type 
 
-// Example of Number Type
+// 5.1 Example of Number Type
 let list: number[] = [1 , 2 ];
 
-// Exam of String Type
+// 5.2 Exam of String Type
 const fruitsName: string[] =  ["Apple", "Mango", "Banana", "Wood Apple", "Ice Apple"];
 
-// Example of Union Type 
+// 5.3 Example of Union Type 
 const idAndName: (number | string)[] = [1, "Shourav", 2 , "Kashem", 3 , "Rohim"];
 
 
 
-// -------------Example of Tuples Type
+// 6. -------------Example of Tuples Type
 
 // [Note: Tuple type means fixed length array which each element has particular type]
 
 const developer: [number, string] = [1250, "Shourav"];
 
 
+// 7. --------------- Example of Enum Type
 
+enum UserRole {
+  user = "user Vai amar",
+  admin = "admin Vai amar"
+}
+
+enum Size {
+  Small = "small",
+  Medium = "medium",
+  Large = "large"
+}
