@@ -33,3 +33,12 @@ const fruitsName: string[] =  ["Apple", "Mango", "Banana", "Wood Apple", "Ice Ap
 const idAndName: (number | string)[] = [1, "Shourav", 2 , "Kashem", 3 , "Rohim"];
 
 
+
+// -------------Example of Tuples Type
+
+// [Note: Tuple type means fixed length array which each element has particular type]
+
+const developer: [number, string] = [1250, "Shourav"];
+
+
+
