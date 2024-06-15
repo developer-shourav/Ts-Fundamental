@@ -64,3 +64,23 @@ const enum BookSize {
   Medium = "medium",
   Large = "large"
 }
+
+
+// --------------8. Defining Argument type and Return Type in function ------
+
+
+const calCulateBMI = (height: number, weight: number): number => {
+
+  const userBMI = weight / Math.pow(height, 2) ;
+  return parseFloat(userBMI.toFixed(2))
+}
+ 
+console.log(calCulateBMI(1.7, 79));
+
+
+function fullName(firstName: string, lastName: string): string {
+  
+  return `${firstName} ${lastName}`
+}
+
+console.log(fullName("Shourav", "Rajbongshi"))
